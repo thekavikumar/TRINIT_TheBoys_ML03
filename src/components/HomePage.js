@@ -1,5 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
+import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 
@@ -16,6 +17,7 @@ function HomePage() {
       </button> */}
       <Navbar />
       <Hero />
+      <Footer />
     </div>
   );
 }
